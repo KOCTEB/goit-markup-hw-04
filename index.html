@@ -39,20 +39,26 @@
           </ul>
         </nav>
         <ul class="contacts list">
-          <li class="item"><a href="" class="link">info@devstudio.com</a></li>
-          <li class="item"><a href="" class="link">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="" class="link">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
     <main>
       <!-- Hero -->
-      <section class="hero">
-        <h1 class="hero-title">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button type="button" class="button">Заказать услугу</button>
-      </section>
+      <div class="overlay">
+        <section class="hero">
+          <h1 class="hero-title">
+            эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button type="button" class="button">Заказать услугу</button>
+        </section>
+      </div>
       <!-- Benefits -->
       <div class="container">
         <section class="benefits">
@@ -135,9 +141,23 @@
                       alt="фото Игоря Демьяненко"
                     />
                   </div>
-                  <div class="card-text">
+                  <div class="card-options">
                     <h4 class="team-title">Игорь Демьяненко</h4>
                     <p lang="en" class="team-member">Product Designer</p>
+                    <ul class="list card-link">
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Инстаграм"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Твиттер"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Фэйсбук"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Линкд Ин"></a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </li>
@@ -150,9 +170,23 @@
                       alt="фото Ольги Репиной"
                     />
                   </div>
-                  <div class="card-text">
+                  <div class="card-options">
                     <h4 class="team-title">Ольга Репина</h4>
                     <p lang="en" class="team-member">Frontend Developer</p>
+                    <ul class="list card-link">
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Инстаграм"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Твиттер"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Фэйсбук"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Линкд Ин"></a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </li>
@@ -165,9 +199,23 @@
                       alt="фото Николая Тарасова"
                     />
                   </div>
-                  <div class="card-text">
+                  <div class="card-options">
                     <h4 class="team-title">Николай Тарасов</h4>
                     <p lang="en" class="team-member">Marketing</p>
+                    <ul class="list card-link">
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Инстаграм"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Твиттер"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Фэйсбук"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Линкд Ин"></a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </li>
@@ -180,9 +228,23 @@
                       alt="фото Михаила Ермакова"
                     />
                   </div>
-                  <div class="card-text">
+                  <div class="card-options">
                     <h4 class="team-title">Михаил Ермаков</h4>
                     <p lang="en" class="team-member">UI Designer</p>
+                    <ul class="list card-link">
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Инстаграм"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Твиттер"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Фэйсбук"></a>
+                      </li>
+                      <li class="item">
+                        <a href="" aria-label="ссылка на Линкд Ин"></a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </li>
@@ -190,18 +252,46 @@
           </section>
         </div>
       </div>
+      <!-- Clients -->
+      <div class="container">
+        <section class="clients">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="list">
+            <li class="item"><a href=""></a></li>
+            <li class="item"><a href=""></a></li>
+            <li class="item"><a href=""></a></li>
+            <li class="item"><a href=""></a></li>
+            <li class="item"><a href=""></a></li>
+            <li class="item"><a href=""></a></li>
+          </ul>
+        </section>
+      </div>
     </main>
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo footer">Web<span>Studio</span></a>
-        <address class="footer-address">
+        <address class="address">
           г. Киев, пр-т Леси Украинки, 26
+          <a href="mailto:info@example.com" class="address-link"
+            >info@example.com</a
+          ><br />
+          <a href="tel:+380991111111" class="address-link">+38 099 111 11 11</a>
         </address>
-        <a href="mailto:info@example.com" class="footer-link"
-          >info@example.com</a
-        ><br />
-        <a href="tel:+380991111111" class="footer-link">+38 099 111 11 11</a>
+        <ul class="list">
+          <li class="item">
+            <a href="" aria-label="ссылка на Инстаграм"></a>
+          </li>
+          <li class="item">
+            <a href="" aria-label="ссылка на Твиттер"></a>
+          </li>
+          <li class="item">
+            <a href="" aria-label="ссылка на Фэйсбук"></a>
+          </li>
+          <li class="item">
+            <a href="" aria-label="ссылка на Линкд Ин"></a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
